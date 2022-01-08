@@ -1,14 +1,14 @@
 package com.example.bluecollar;
 
+import android.os.Bundle;
+import android.widget.TextView;
+
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.os.Bundle;
-import android.widget.Button;
-import android.widget.EditText;
 
 public class MainActivity2 extends AppCompatActivity {
+    TextView tv;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
