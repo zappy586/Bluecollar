@@ -26,16 +26,18 @@ Button b;
             @Override
             public void onClick(View view) {
                 String s = N2.getText().toString();
+                String s2 = N3.getText().toString();
                 int time = Integer.parseInt (s);
-                int sal = Integer.parseInt(N3.getText().toString());
+                int sal = Integer.parseInt(s2);
                 if(sal>300 || sal<200) {
                     int Total = sal * time;
+                    N1.setText("the total cost is: "+ Total );
                 }
                 else{
                     Toast.makeText(MainActivity4.this, "Enter Within the limit", Toast.LENGTH_SHORT).show();
                 }
 
-                N1.setText("the total cost is: "+ Total );
+
             }
         });
 
