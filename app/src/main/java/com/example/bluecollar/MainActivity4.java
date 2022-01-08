@@ -45,7 +45,7 @@ Button b1,b2;
                     N1.setText("the total cost is: "+ Total );
 
 
-                if(sal>300 || sal<200){
+                if(sal>200 || sal<100){
                     N1.setText("Please enter within limit" );
                 }
             }
