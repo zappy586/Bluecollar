@@ -85,13 +85,14 @@
 
     <EditText
         android:id="@+id/work_hours"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="247dp"
+        android:layout_height="40dp"
         android:ems="10"
+        android:hint="Enter Work Hours(0-7 hrs)"
         android:inputType="number"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.144"
+        app:layout_constraintHorizontal_bias="0.273"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7" />
 
