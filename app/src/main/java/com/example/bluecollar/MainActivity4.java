@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity4 extends AppCompatActivity {
 TextView N1;
@@ -27,7 +28,13 @@ Button b;
                 String s = N2.getText().toString();
                 int time = Integer.parseInt (s);
                 int sal = Integer.parseInt(N3.getText().toString());
-                int Total = sal* time;
+                if(sal>300 || sal<200) {
+                    int Total = sal * time;
+                }
+                else{
+                    Toast.makeText(MainActivity4.this, "Enter Within the limit", Toast.LENGTH_SHORT).show();
+                }
+
                 N1.setText("the total cost is: "+ Total );
             }
         });
