@@ -77,14 +77,14 @@
         android:text="Working hours per day:"
         android:textColor="@color/black"
         android:textSize="28sp"
-        app:layout_constraintBottom_toTopOf="@+id/editTextNumber"
+        app:layout_constraintBottom_toTopOf="@+id/work_hours"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.287"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/salary_input" />
 
     <EditText
-        android:id="@+id/editTextNumber"
+        android:id="@+id/work_hours"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
@@ -125,7 +125,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.947"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextNumber" />
+        app:layout_constraintTop_toBottomOf="@+id/work_hours" />
 
     <EditText
         android:id="@+id/salary_input"
