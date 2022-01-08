@@ -8,13 +8,15 @@ import android.view.View;
 import android.widget.Button;
 
 public class client extends AppCompatActivity {
-    Button b1;
-    Button b2;
-    Button b3;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_client);
+        Button b1;
+        Button b2;
+        Button b3;
+
         b1=findViewById(R.id.button7);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override

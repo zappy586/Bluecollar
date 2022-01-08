@@ -8,18 +8,19 @@ import android.view.View;
 import android.widget.Button;
 
 public class MainActivity3 extends AppCompatActivity {
-   /* Button b1;
-    Button b2;
-    Button b3;*/
-    @Override
+
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main3);
-       /* b1=findViewById(R.id.button2);
+        Button b1;
+        Button b2;
+        Button b3;
+
+        b1=findViewById(R.id.button2);
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity3.this,MainActivity4.class);
+                Intent intent = new Intent(MainActivity3.this,waiting.class);
                 startActivity(intent);
             }
         });
@@ -27,7 +28,7 @@ public class MainActivity3 extends AppCompatActivity {
         b2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity3.this,construction.class);
+                Intent intent = new Intent(MainActivity3.this,waiting.class);
                 startActivity(intent);
             }
         });
@@ -35,10 +36,9 @@ public class MainActivity3 extends AppCompatActivity {
         b3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MainActivity3.this,WareHouse.class);
+                Intent intent = new Intent(MainActivity3.this,waiting.class);
                 startActivity(intent);
             }
         });
-*/
     }
 }
