@@ -132,7 +132,7 @@
         android:layout_width="320dp"
         android:layout_height="47dp"
         android:ems="10"
-        android:hint="Enter per Hour Salary(100-200)"
+        android:hint="Enter Per Hour Salary(100-200)"
         android:inputType="number"
         app:layout_constraintBottom_toTopOf="@+id/textView7"
         app:layout_constraintEnd_toEndOf="parent"
