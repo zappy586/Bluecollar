@@ -41,13 +41,12 @@ Button b1,b2;
                 String s2 = N3.getText().toString();
                 int time = Integer.parseInt (s);
                 int sal = Integer.parseInt(s2);
-                if(sal>300 || sal<200) {
                     int Total = sal * time;
                     N1.setText("the total cost is: "+ Total );
 
-                }
-                else{
-                    Toast.makeText(MainActivity4.this, "Enter Within the limit", Toast.LENGTH_SHORT).show();
+
+                if(sal>300 || sal<200){
+                    N1.setText("Please enter within limit" );
                 }
             }
         });
