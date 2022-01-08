@@ -6,41 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
-    <EditText
-        android:id="@+id/editTextPhone2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName|phone"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="215dp" />
-
-    <EditText
-        android:id="@+id/editTextPhone3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textVisiblePassword|textPersonName|phone"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="291dp" />
-
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="372dp"
+        android:layout_width="219dp"
+        android:layout_height="82dp"
+        android:layout_marginTop="240dp"
         android:text="Button"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/editTextPhone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="phone"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="136dp" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="211dp"
+        android:layout_height="77dp"
+        android:text="Button"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="405dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
