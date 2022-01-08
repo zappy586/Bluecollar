@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Bluecollar">
         <activity
+            android:name=".Final"
+            android:exported="false" />
+        <activity
             android:name=".WareHouse"
             android:exported="false" />
         <activity
