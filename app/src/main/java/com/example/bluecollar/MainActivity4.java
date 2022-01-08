@@ -47,12 +47,11 @@ Button b1,b2;
                 N1.setText("the total cost is: "+ Total );
 
 
-                if(sal>100 || sal<200 || hour>7 || hour<0){
+                if(sal>100 || sal<200 || hour>7)
                     N1.setText("Please enter within limit");
 
                 }
-            }
+
         });
 
-    }
-}
+    }}
