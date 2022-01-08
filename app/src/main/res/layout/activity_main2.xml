@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/img_1"
+    android:background="#3AADE1"
     tools:context=".MainActivity2">
 
     <TextView
@@ -13,8 +13,9 @@
         android:layout_height="58dp"
         android:layout_marginTop="108dp"
         android:text="Please Select"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textSize="38sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
