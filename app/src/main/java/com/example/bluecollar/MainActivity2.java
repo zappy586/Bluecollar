@@ -12,6 +12,7 @@ import android.widget.EditText;
 public class MainActivity2 extends AppCompatActivity {
 
     Button button_worker;
+    Button client;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +23,14 @@ public class MainActivity2 extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity2.this , MainActivity3.class);
                 startActivity(intent);
+            }
+        });
+        client= findViewById(R.id.client);
+        client.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent indent = new Intent (MainActivity2.this, client.class);
+                startActivity(indent);
             }
         });
 //jkhkjh
